@@ -8,8 +8,9 @@ public record GroupedDaily(
         boolean adjusted,
         Integer queryCount,
         List<Result> results,
-        Integer resultCount,
-        String status
+        Integer resultsCount,
+        String status,
+        String request_id
 ) {
 
     public record Result(
